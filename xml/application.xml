@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application>
+
+	<settings>
+		<setting name="nonGamePromoUrl">http://cdn.webperflab.com/2012/nnerds/a4/xml/AdvancedFlashXml-Download-Portal_non_game_promo_list_v2.xml</setting>
+		<setting name="searchUrl">aspx/Search_alt.aspx</setting>
+		
+		<!-- carousel settings -->
+		<setting name="imageLoadInInterval">100</setting>
+		<setting name="frameRateLimit">20</setting>
+		<setting name="frameRateDropTime">5</setting>
+		<setting name="defaultScreenshots">http://cdn.webperflab.com/2012/nnerds/a4/xml/screenshots_default.xml</setting>
+		<setting name="defaultVideo">http://cdn.webperflab.com/2012/nnerds/a4/xml/video_default.xml</setting>
+		<setting name="videoplayerUrl">flash/videoplayer.swf</setting> 
+		<setting name="videoAgeGateUrl">http://cdn.webperflab.com/2012/nnerds/a4/xml/Video.xml</setting>
+		
+		<setting name="gameOverlayUrl">flash/gameOverlay.swf</setting>
+		<setting name="screenshotUrl">flash/screenshots.swf</setting>
+		<setting name="debug">0</setting>
+		
+		<setting name="ageGateGetFunction">Ubisoft.Homepage.Cookie.getValue</setting>
+		<setting name="ageGateSetFunction">Ubisoft.Homepage.Cookie.setValue</setting>
+		
+	</settings>
+	<assets>
+		
+		<!-- swf assets -->
+		<asset name="configurationUrl">http://cdn.webperflab.com/2012/nnerds/a4/aspx/Search_metrics_v2.aspx</asset>
+
+		
+		
+	</assets>
+</application>
